@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bitter:wght@100&family=Cinzel:wght@400;500;800&family=Dancing+Script:wght@700&family=Exo+2:wght@100;400&family=Kdam+Thmor+Pro&family=Montserrat:wght@100&family=Oswald&family=Titan+One&display=swap');
+
+
+
+header::before {
+    background: url('https://images.unsplash.com/photo-1560624052-449f5ddf0c31?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')no-repeat center center;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.25;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+   height: 750vh;
+    z-index: -1;
+    overflow: auto;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+   
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: rgb(0, 0, 0);
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.5s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+
+}
+
+a {
+    position: relative;
+    color: rgb(249, 249, 250);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fas {
+    position: relative;
+    width: 75px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.navitem {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+
+
+.logo {
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.logo span {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+
+
+a:hover {
+    background: burlywood;
+}
+
+nav:hover {
+    width: 280px;
+    transition: all 0.5s ease;
+
+}
+
+.head {
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: "Dancing script", 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+
+}
+
+.welcome {
+    width: 100%;
+    height: 10rem;
+    color: rgb(0, 0, 0);
+    font-family: "Dancing script", 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 2000;
+    animation: fadein 4s;
+
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#img1 {
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    animation: fadein 4s;
+    padding: 20px;
+}
+
+#img2 {
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    animation: fadein 4s;
+    padding: 20px;
+}
+
+#img3 {
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    animation: fadein 4s;
+    padding: 20px;
+}
+
+#img4 {
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+    animation: fadein 4s;
+    padding: 20px;
+}
+
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    text-align: center;
+    align-content: flex-end;
+}
+
+#para {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 3000;
+    color: black;
+    font-family: "Dancing script", 'Times New Roman', Times, serif;
+    width: 60%;
+    height: 100px;
+}
+
+.paraimg {
+    display: flex;
+
+}
+
+#AboutUs {
+    padding-top: 100px;
+    font-size: 20px;
+    margin-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#AboutUs:hover {
+    animation: fadein 4s;
+}
+
+
+
+
+h2 {
+    font-family: "Dancing script", 'Times New Roman', Times, serif;
+    font-weight: 2000;
+    text-align: center;
+
+}
+
+.para1 {
+    margin: 20px;
+    font-weight: 2000;
+}
+
+
+#enjoy {
+    padding-top: 100px;
+    ;
+    padding-right: 200px;
+}
+
+#image {
+
+    margin: 100px;
+
+padding-left: 100px;
+    height: 540px;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(178, 184, 184);
+    border-radius: 20px;
+    border-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+    padding: 30px;
+
+
+}
+
+.inp {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin: 10px;
+    padding: 2px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.end {
+    
+    
+    
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+
+
+.fab {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+}
+
+.x {
+    position: relative;
+    padding: 4px;
+}
+.add{
+    
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(247, 247, 247);
+padding-right: 110px;
+
+}
+h4{
+    font-size: 1rem;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.con{
+    
+    color: rgb(247, 247, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+footer{
+    background-color: black;
+    height: 266px;
+    padding-top: 20px;
+   
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.rights{
+    padding-left: 100px;
+    background-color:black;
+    color: antiquewhite;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.elements{
+    padding-top: 80px;
+}
+.count{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -10%;
+    margin-top: 2%;
+color: black;
+}
+.cart{
+    margin-left: 10%;
+}
+.itemimg
+{
+    width: 250px;
+    height: 300px;
+    border-radius: 2%;
+    margin-left:5%;
+    padding-top: 5%;
+}
+.star{
+    color: yellow;
+    
+}
+.starunlike{
+    color: white;
+}
+
+.itemm{
+    display: flex;
+    margin-left: -5%;
+}
+.stars
+{
+   margin-left: 20px;
+   margin-top: 7%;
+   text-align: left;
+}
+
+
+.desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.stars button {
+    width: 120px;
+    height: 40px;
+    border-color: aliceblue;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left:60vw;
+
+
+}
+
+ 
+
+.stars button:hover {
+   font-size: 20px;
+}
+.vnv{
+    border: 2px;
+    border-color: green;
+
+
+}
+.circle{
+    color: green;
+    font-size: 20px;
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:-98%
+}
+.veg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid green;
+    height: 20px;
+    width: 20px;
+}
+.nveg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #e43b4f;
+    height: 20px;
+    width: 20px;
+}
+.circle{
+    position: absolute;
+    background-color: green;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+.triangle
+{position: absolute;
+ 
+    border-radius: 2px;
+    height:0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #e43b4f;
+
+}
+
+#menu h1{
+    font-size: 3rem;
+   
+    
+    font-style: italic;
+}
+
+.starbox{
+    display: flex;
+    justify-content: space evenly;
+    width: 92px;
+    height: 20px;
+    background-color: rgb(120 120 116);
+    border-radius: 2px;
+    border-color: azure;
+    margin-top: 5px;
+}
+.price{
+    margin-left: -2%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.count{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -10%;
+    margin-top: 2%;
+color: black;
+}
+.cart{
+    margin-left: 10%;
+}
